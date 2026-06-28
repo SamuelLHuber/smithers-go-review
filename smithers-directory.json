@@ -1,0 +1,14 @@
+{
+  "name": "smithers-go-review",
+  "description": "Harsh Go code review workflow for smithers — reviews against go.dev/wiki/CodeReviewComments",
+  "workflows": [
+    {
+      "name": "go-review",
+      "entry": "workflows/go-review.tsx",
+      "description": "Reviews Go code against the official Go wiki and produces a graded report with specific file/function/line references.",
+      "tags": ["go", "review", "quality", "code-review"],
+      "capabilities": ["agent"],
+      "files": ["prompts/go-review.mdx", "agents.ts"]
+    }
+  ]
+}
