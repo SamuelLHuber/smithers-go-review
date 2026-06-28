@@ -1,0 +1,38 @@
+{
+  "name": "@samuellhuber/smithers-go-review",
+  "version": "1.0.0",
+  "description": "Harsh Go code review workflow for smithers — reviews against go.dev/wiki/CodeReviewComments",
+  "type": "module",
+  "main": "workflows/go-review.tsx",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "smithers-orchestrator": ">=0.26.0",
+    "zod": ">=4.0.0",
+    "react": ">=19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.0",
+    "@types/react": "^19.0.0",
+    "@types/node": "^22.0.0"
+  },
+  "keywords": [
+    "smithers",
+    "smithers-workflow",
+    "go",
+    "golang",
+    "code-review",
+    "quality"
+  ],
+  "author": "SamuelLHuber",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SamuelLHuber/smithers-go-review.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SamuelLHuber/smithers-go-review/issues"
+  },
+  "homepage": "https://github.com/SamuelLHuber/smithers-go-review#readme"
+}
